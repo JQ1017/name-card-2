@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <style>
+
+        :root{
+            --gradient: linear-gradient(43deg,  #A7CFFF 0%, #FFACAC 100%);
+        }
+
+        body{
+            min-height: 100vh;
+            background-color: #c850c0;
+            background-image: var(--gradient);
+            background-size: 400%;
+            animation: gradient-animation 5s infinite alternate;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        @keyframes gradient-animation {
+            0% {
+                background-position: left;
+            }
+
+            100% {
+                background-position: right;
+            }
+        }
+
+        h1{
+            font-size: 4rem;
+            text-align: center;
+            font-family: 'Oswald', sans-serif;
+            padding: 30px;
+            color: #fff;
+        }
+
+        img{
+            background-color: #eaeaea;
+            background-size: cover;
+            border-radius: 100px;
+            width: 150px;
+            height: 150px;
+            margin: 0 auto;
+            border: 1px solid #eaeaea;
+        }
+
+        .box{
+            text-align: center;
+            padding: 60px;
+            color: #FFFFFF;
+            z-index: 1;
+            border: 3px solid lightblue;
+        }
+
+        li{
+            display: inline;
+            color: rgb(168, 2, 2);
+            font-family: 'Oswald', sans-serif;
+            font-size: 30px;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .link{
+            margin: rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <img src="img/profile.jpg" alt="" srcset="">
+        <h1>Muhammad Dzaki Lukmanul Hakim </h1>
+        <div class="link">
+            <li><a style="padding-right: 3rem;" href="./ingpo.html"><b>PROFIL</b></a></li>
+            <li><a style="padding-left: 3rem;" href="./sertifikat.html"><b>SERTIFIKAT</b></a></li>
+        </div>
+        
+    </div>
+</body>
+</html>
